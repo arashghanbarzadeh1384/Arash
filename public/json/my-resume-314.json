@@ -1,0 +1,129 @@
+{
+  "resumeLang": "en",
+  "basics": {
+    "name": "Arash Ghanbarzadeh",
+    "label": "FrontEnd Developer",
+    "email": "arashghanbarzadeh0902@gmail.com",
+    "phone": "09026686747",
+    "summary": "Front-End Developer with 2\u002B year of experience in building responsive, high-performance web applications using React, JavaScript, and modern styling frameworks like TailwindCSS. Strong focus on UI/UX, performance optimization, and teamwork. Passionate about learning and contributing to real-world projects.",
+    "url": "arshghanbarzadeh.ir",
+    "location": {
+      "city": "Tehran",
+      "region": "Tehran",
+      "country": "Iran",
+      "countryCode": "\u002B98"
+    },
+    "profiles": [
+      { "network": "Telegram", "url": "https://t.me/wwbdisgn" },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/arashghanbarzadeh1384"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "linkedin.com/in/arash-ghanbarzadeh-51025426b/"
+      },
+      {
+        "network": "Instagram",
+        "url": "https://www.instagram.com/arash__programmer/"
+      }
+    ],
+    "dob": "2006/1/28",
+    "military_status": "Educational Exemption"
+  },
+  "education": [
+    {
+      "institution": "Shahid Avini",
+      "area": "Computer Programming(Programming)",
+      "studyType": "Diploma",
+      "startDate": "2021-10",
+      "endDate": "2024",
+      "score": "19:85",
+      "location": { "city": "Tehran", "region": "Tehran", "country": "Iran" }
+    },
+    {
+      "institution": "Roudehen University",
+      "area": "Engineering Sciences(Computer)",
+      "studyType": "Bachelor",
+      "startDate": "2024-10",
+      "location": { "city": "Tehran", "region": "Tehran", "country": "Iran" }
+    }
+  ],
+  "work": [
+    {
+      "position": "React js",
+      "name": "Virasgal Karo Company",
+      "startDate": "2023-01",
+      "endDate": "2024-06",
+      "location": { "city": "Tehran", "region": "Tehran", "country": "Iran" },
+      "summary": "I worked as a Front-End Developer at Virasgal Company for six months. During this time, I was involved in a large-scale project that consisted of multiple management and user panels. This project provided me with an excellent opportunity to strengthen my technical skills in designing user interfaces, implementing responsive components, and working with modern front-end frameworks such as React.\r\n\r\nThroughout the project, I faced several challenges, including proper code structuring, state management, effective communication with the back-end team, and optimizing page performance. These challenges helped me gain a deeper understanding of software development in a real-world professional environment."
+    },
+    {
+      "position": "Front end developer",
+      "name": "parspardaz",
+      "startDate": "2024-07",
+      "endDate": "2025-07",
+      "location": { "city": "Tehran", "region": "Tehran", "country": "Iran" },
+      "summary": "Over the past month at Pars Pardaz Company, I worked on designing and developing a fully modern portfolio website for a single individual using React. This project involved implementing an advanced user interface and creating an admin panel that allowed that individual to easily upload and manage their portfolio items.\r\n\r\nThe backend of the website was developed using WordPress, and we utilized WordPress\u2019s REST API to enable smooth and effective communication between the front-end and back-end. This architecture allowed us to develop the front-end independently with modern technologies, while WordPress handled content and data management.\r\n\r\nThroughout the project, I encountered challenges such as data management, synchronization between the admin panel and the website, and optimizing site performance. These challenges significantly enhanced my skills in working with React, WordPress, and APIs. This experience gave me a deeper understanding of web development in real-world projects and the integration of diverse technologies."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "6-Month Front-End Web Design Course",
+      "date": "2022-05",
+      "issuer": "Technical Complex of Tehran"
+    },
+    {
+      "name": "React js",
+      "date": "0-10",
+      "issuer": "Technical Complex of Tehran"
+    },
+    {
+      "name": "Ui/UX ",
+      "date": "2024-07",
+      "issuer": "Technical Complex of Tehran"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio",
+      "startDate": "0",
+      "description": "This is my personal project where I have used React, Tailwind CSS, and the AOS and MUI libraries. The website is designed to be multilingual, and I implemented its multilingual functionality using the i18n library.",
+      "url": "http://arashghanbarzadeh.ir/"
+    },
+    {
+      "name": "Construction Materials of Ahanehfar",
+      "startDate": "0",
+      "description": "The website I designed was built with WordPress and focuses on the sale of construction iron materials. In this project, I used various plugins including Elementor for page design and WooCommerce for managing sales and organizing iron products in tables. Additionally, I utilized JetEngine to implement advanced content management features.\r\n\r\nI also employed different SEO tools to optimize the website and improve its visibility in search engine results.",
+      "url": "https://ahanstone.com/"
+    },
+    {
+      "name": "Bahar Construction Clinic",
+      "startDate": "0",
+      "description": "for designing the pages, and WooCommerce was utilized to manage product sales.",
+      "url": "https://behnambc.com/"
+    },
+    {
+      "name": "Photography \u0026 Graphic Design Lumion",
+      "startDate": "0",
+      "description": "This website is a portfolio built with React, utilizing the AOS library for appealing animations. It features a custom admin panel that allows the user to add, delete, or edit their portfolio items.\r\n\r\nTo access the panel, the user must enter their credentials and authenticate successfully. The panel\u2019s backend is connected to WordPress and uses WordPress REST APIs for communication between the front-end and back-end. Additionally, a login system has been implemented to secure the panel.",
+      "url": "https://liolumion.ir/"
+    }
+  ],
+  "skills": [
+    { "name": "React", "level": "Basic Knowledge" },
+    { "name": "Next js", "level": "Basic Knowledge" },
+    { "name": "Redux", "level": "Basic Knowledge" },
+    { "name": "git", "level": "Basic Knowledge" },
+    { "name": "GitHub", "level": "Basic Knowledge" },
+    { "name": "Figma Software", "level": "Basic Knowledge" },
+    { "name": "tailwindcss", "level": "Basic Knowledge" },
+    { "name": "TypeScript", "level": "Basic Knowledge" },
+    { "name": "Responsive", "level": "Basic Knowledge" },
+    { "name": "react query", "level": "Basic Knowledge" },
+    { "name": "mui", "level": "Basic Knowledge" },
+    { "name": "sass", "level": "Basic Knowledge" },
+    { "name": "rest api", "level": "Basic Knowledge" }
+  ],
+  "languages": [{ "language": "English", "fluency": "Intermediate" }]
+}

@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(135deg, #1e293b 0%, #34495e 100%);
+
+}
+
+.contaienr {
+  max-width: 85%;
+  height: auto;
+  margin: 0 auto;
+}
