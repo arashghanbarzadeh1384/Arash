@@ -1,5 +1,3 @@
-import fs from "fs/promises";
-import path from "path";
 import {
   FaReact,
   FaSass,
@@ -38,29 +36,108 @@ type Tech = {
 type Project = {
   id: string | number;
   title: string;
-  description: string;
   image?: string;
   link: string;
   technologies?: Tech[];
 };
 
-export default async function ProjectsPage() {
-  let projects: Project[] = [];
+const projects: Project[] = [
+  {
+    id: 1,
+    title: "React Amazon",
+    image: "/Images/Screenshot 2025-05-31 114300.png",
+    link: "https://react-amazone.vercel.app/",
+    technologies: [
+      { name: "React", iconKey: "react" },
+      { name: "Tailwind", iconKey: "tailwind" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Portfolio",
+    image: "/Images/Screenshot 2025-05-31 123421.png",
+    link: "http://arashghanbarzadeh.ir/",
+    technologies: [
+      { name: "React", iconKey: "react" },
+      { name: "Tailwind", iconKey: "tailwind" },
+      { name: "AOS", iconKey: "aos" },
+    ],
+  },
+  {
+    id: 3,
+    title: "Liolumion Website",
+    image: "/Images/liolumion.png",
+    link: "http://liolumion.ir/",
+    technologies: [
+      { name: "React", iconKey: "react" },
+      { name: "CSS", iconKey: "css" },
+      { name: "AOS", iconKey: "aos" },
+    ],
+  },
+  {
+    id: 4,
+    title: "ViraMed Website",
+    image: "/Images/viramed.png",
+    link: "https://vira-med.com/",
+    technologies: [
+      { name: "React", iconKey: "react" },
+      { name: "Sass", iconKey: "sass" },
+      { name: "React Router", iconKey: "reactrouter" },
+      { name: "Swiper", iconKey: "swiper" },
+    ],
+  },
+  {
+    id: 5,
+    title: "AhanStone",
+    image: "/Images/ahanstone.png",
+    link: "https://ahanstone.com/",
+    technologies: [{ name: "Wordpress", iconKey: "wordpress" }],
+  },
+  {
+    id: 6,
+    title: "Behnambc",
+    image: "/Images/behnambc.png",
+    link: "https://behnambc.com/",
+    technologies: [{ name: "Wordpress", iconKey: "wordpress" }],
+  },
+  {
+    id: 7,
+    title: "Tcctech",
+    image: "/Images/tcctech.png",
+    link: "https://tcctech.ir/",
+    technologies: [{ name: "Wordpress", iconKey: "wordpress" }],
+  },
+  {
+    id: 8,
+    title: "Jannahome",
+    image: "/Images/jannahome.png",
+    link: "https://jannahome.com/",
+    technologies: [{ name: "Wordpress", iconKey: "wordpress" }],
+  },
+  {
+    id: 9,
+    title: "Apple",
+    image: "/Images/apple.png",
+    link: "https://applle-compani.vercel.app/",
+    technologies: [
+      { name: "Html", iconKey: "html" },
+      { name: "Css", iconKey: "css" },
+      { name: "JavaScript", iconKey: "javascript" },
+    ],
+  },
+  {
+    id: 10,
+    title: "Weather-App",
+    image: "/Images/Weather-App.png",
+    link: "https://weather-app-nine-opal-17.vercel.app/",
+    technologies: [
+      { name: "Next js", iconKey: "next" },
+      { name: "Tailwind", iconKey: "tailwind" },
+    ],
+  },
+];
 
-  try {
-    const jsonFilePath = path.join(
-      process.cwd(),
-      "public",
-      "json",
-      "project.json"
-    );
-
-    const fileContents = await fs.readFile(jsonFilePath, "utf-8");
-    projects = JSON.parse(fileContents);
-  } catch (error) {
-    console.error("project.json not found:", error);
-  }
-
+export default function ProjectsPage() {
   return (
     <main className="max-w-7xl mx-auto p-8 min-h-screen">
       <h1 className="text-5xl font-semibold mb-14 text-white text-center">
@@ -68,9 +145,7 @@ export default async function ProjectsPage() {
       </h1>
 
       {projects.length === 0 ? (
-        <p className="text-center text-white">
-          No projects found.
-        </p>
+        <p className="text-center text-white">No projects found.</p>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10">
           {projects.map((project) => (
